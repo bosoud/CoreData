@@ -75,6 +75,7 @@ class ViewController: UIViewController {
                 
             }
         }
+        DataTxt.text?.removeAll()
     }
 
     
