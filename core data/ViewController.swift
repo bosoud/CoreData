@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     @IBAction func SaveCoreData(_ sender: Any) {
         print("Saving Data..")
         let user = UserEntity(context: context)
-        let array = ["Abdulwahab", "DOOOSH", "BoSoud", "Soga"]
+        let array = ["Abdulwahab", "Hello World", "BoSoud", "my Core Data"]
         if DataTxt.text!.isEmpty {
             user.name = array.randomElement()!
         }else {
